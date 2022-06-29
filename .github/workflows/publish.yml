@@ -1,4 +1,4 @@
-name: Build and Generate Test Wiki
+name: Build and Generate Wiki
 permissions:
   contents: write
 on:
@@ -23,7 +23,10 @@ jobs:
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-caches-${{ hashFiles('**/*.gradle.kts') }}
-          restore-keys: ${{ runner.os }}-gradle-
+          restore-keys: |
+            ${{ runner.os }}-gradle-caches-
+            ${{ runner.os }}-gradle-
+            ${{ runner.os }}-
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
