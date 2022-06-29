@@ -1,4 +1,4 @@
-name: Build and Generate Wiki
+name: Build and Generate Test Wiki
 permissions:
   contents: write
 on:
