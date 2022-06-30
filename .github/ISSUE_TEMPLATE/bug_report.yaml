@@ -1,5 +1,5 @@
-name: Bug Report
-description: Suggesting a new wiki to add
+name: Bug report
+description: Reporting an issue
 labels: ["bug"]
 body:
   - type: textarea
