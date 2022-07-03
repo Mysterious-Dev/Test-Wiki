@@ -2,6 +2,13 @@ name: Bug report
 description: Reporting an issue
 labels: ["bug"]
 body:
+  - type: dropdown
+    attributes:
+      label: Operating System
+      options:
+        - Windows
+        - MacOS
+        - Linux
   - type: textarea
     attributes:
       label: Issue description
