@@ -9,6 +9,8 @@ body:
         - Windows
         - MacOS
         - Linux
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Issue description
