@@ -11,6 +11,12 @@ body:
         - Linux
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Web Browser
+      description: On which web browser do you have a problem?
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Issue description
