@@ -5,6 +5,7 @@ body:
   - type: dropdown
     attributes:
       label: Operating System
+      description: On which operating system do you have a problem?
       options:
         - Windows
         - MacOS
