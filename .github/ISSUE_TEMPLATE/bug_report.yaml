@@ -17,6 +17,12 @@ body:
       required: true
   - type: input
     attributes:
+      label: Other
+      description: What is your operating system (for people how choose Other)
+    validations:
+      required: false
+  - type: input
+    attributes:
       label: Web Browser
       description: On which web browser do you have a problem?
     validations:
