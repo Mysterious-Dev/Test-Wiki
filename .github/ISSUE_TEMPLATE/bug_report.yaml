@@ -10,6 +10,9 @@ body:
         - Windows
         - MacOS
         - Linux
+        - Android
+        - IOS
+        - Other
     validations:
       required: true
   - type: input
